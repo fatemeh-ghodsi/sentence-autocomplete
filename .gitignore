@@ -1,16 +1,13 @@
-# Ignore the huge GloVe files (GitHub will block these)
-glove.6B.50d.txt
-glove.6B.100d.txt
-glove.6B.200d.txt
-glove.6B.300d.txt
-glove.6B.zip
+# Ignore the dataset
+medium.csv
 
-# Ignore the dataset and saved models
-isear.csv
+# Ignore the heavy GloVe vectors
+glove.6B.*.txt
+
+# Ignore the generated model and tokenizer
 *.h5
 *.pkl
 
 # Ignore Python cache folders
 __pycache__/
-.venv/
-.DS_Store
+.ipynb_checkpoints/
